@@ -17,10 +17,10 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "LESSON NAME"
-copyright = "2020, The contributors"
-author = "The contributors"
-github_user = "coderefinery"
+project = "YSDA Course"
+copyright = "2024"
+author = "Authors"
+github_user = "yandexdataschool"
 github_repo_name = ""  # auto-detected from dirname if blank
 github_version = "main"
 conf_py_path = "/content/"  # with leading and trailing slash
@@ -38,12 +38,17 @@ extensions = [
     "sphinx_rtd_theme_ext_color_contrast",
 ]
 
+myst_enable_extensions = [
+    "colon_fence",   # ::: can be used instead of ``` for better rendering
+    ]
+
 # Settings for myst_nb:
-# https://myst-nb.readthedocs.io/en/latest/use/execute.html#triggering-notebook-execution
-# jupyter_execute_notebooks = "off"
-# jupyter_execute_notebooks = "auto"   # *only* execute if at least one output is missing.
-# jupyter_execute_notebooks = "force"
-jupyter_execute_notebooks = "cache"
+# https://myst-nb.readthedocs.io/en/latest/computation/execute.html#notebook-execution-modes
+# nb_execution_mode = "off"
+# nb_execution_mode = "auto"   # *only* execute if at least one output is missing.
+# nb_execution_mode = "force"
+# nb_execution_mode = "cache"
+nb_execution_mode = "cache"
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
@@ -67,6 +72,7 @@ exclude_patterns = [
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+html_logo = "Figures/ysda_logo_upscaled.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
