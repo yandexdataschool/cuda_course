@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Web server for slides",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "http.server",
+            "args": [
+                "8080"
+            ],
+            "cwd": "${workspaceFolder}/slides",
+            "console": "integratedTerminal"
+        }
+    ]
+}
