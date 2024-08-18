@@ -273,7 +273,6 @@ This is easy to da in the synchronous version of the program.
 ```
 ````
 `````
-
     Create the synchronos version of the GPU code with dependency.
     Use GPU version of the code without dependencies as a starting point and a CPU version of the code with dependencies as a reference.
 ``````
@@ -296,7 +295,7 @@ Let us now try to convert the code so it will run asynchronously as if there is 
     :language: CUDA
 ```
 ````
-
+`````
     1. The CPU data needs to be pinned.
        Change the allocation and release of the memory so that CUDA API calls to |cudaMallocHost| and |cudaFreeHost| are used.
 
@@ -390,7 +389,7 @@ For this to be useful, the stream should be diferent to the one where event was 
     :language: CUDA
 ```
 ````
-
+`````
     The problem can be solved by adding an extra |cudaDeviceSynchronize| function call, but this approach is not very flexible.
     For instance, it will not work if there another independent stream in the program.
     Preferred approach is to add explicit dependencies with events.
