@@ -135,4 +135,26 @@ pscp test.py imladris:~
 * https://code.visualstudio.com/ — сайт проекта.
 * https://code.visualstudio.com/docs — возможно, слишком подробное getting started.
 
-TODO: минимальные шаги настройки vs code.
+Вам нужно:
+* Скачать и [установить](https://code.visualstudio.com/docs/setup/setup-overview) vs code под свою платформу.
+* Установить плагины *Remote-SSH* и *C/C++* от Microsoft: `Ctrl+Shift+X` → поиск по названиям плагинов → Install.
+
+После этого попробуем подключиться к компьютеру в ШАД:
+* Нажимаем на зелёные стрелочки в левом нижнем углу (или `Ctrl-Shipft-P` → `>Remote-SSH: Connect to Host`).
+* В появившемся списке выбираем машину `imladris` (она должна подтянуться из `~/.ssh/config`).
+* Некоторое время vs code копирует файлы на удалённый сервер, потом показывает welcome-окно.
+* В правом нижнем углу окна должно быть имя удалённого сервера.
+
+`Ctrl-\`` — открыть ssh-консоль к удалённому серверу прямо в vs code. Командой «+» в toolbar’е этой консоли можно создать дополнительные.
+
+Попробуем написать простейшую программу:
+* Создадим папку для экспериментов: `mkdir 01-intro` и откроем её в vs code («File → Open Folder» или с Welcome-screen).
+* → `Yes, I trust authors`
+* В vs code создадим новый файл (`Ctrl-N` или через Explorer `Ctrl-Shift-E`).
+* (Самостоятельно) напишем стандартный «hello, world» на C++ и сохраним его как `main.cpp`.
+* Проверяем через консоль: `gcc -o main main.cpp && ./main`
+
+Повышаем степень удобства работы, ставим плагин для C++:
+* `Ctrl-Shift-X`
+* В списке локально установленных плагинов находим `C/C++`
+* → `Install in SSH`
