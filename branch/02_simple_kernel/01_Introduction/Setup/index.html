@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Настройка рабочего окружения &mdash; YSDA Course  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx_lesson.css?v=0c089442" />
+      <link rel="stylesheet" type="text/css" href="../../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../../_static/tabs.css?v=a5c4661c" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=187304be"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../../_static/copybutton.js?v=f281be69"></script>
+        <script src="../../_static/minipres.js?v=a0d29692"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../" class="icon icon-home">
+            YSDA Course
+              <img src="../../_static/ysda_logo_upscaled.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Лекции</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/">Введение</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../10_AsynchronousExecution/AsynchronousExecution/">Асинхронное выполнение</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../">YSDA Course</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Настройка рабочего окружения</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/yandexdataschool/content/blob/main/content/01_Introduction/Setup.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>Настройка рабочего окружения<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<section id="id2">
+<h2>Доступ на сервер<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Описание доступных серверов есть в <a class="reference external" href="https://docs.google.com/document/d/1oW1I6Ec2QIC1B3RQON4FwiSx6PjXCH8nOZxJGoQnQEk/edit#heading=h.i4z3eccegkh6">официальной инструкции</a>. Для пользования серверами нужно её изучить.</p>
+<p>Нас будет интересовать в первую очередь сервер <code class="docutils literal notranslate"><span class="pre">imladris</span></code> и карты RTX A4000 на нём. Обратите внимание, что на сервере стоят как <a class="reference external" href="https://blogs.nvidia.com/blog/quadro-rtx-4000/">RTX 4000</a> (поколение Turing, то же, что и 2070), так и гораздо более современные <a class="reference external" href="https://www.nvidia.com/en-us/design-visualization/rtx-4000/">RTX A4000</a> (Ada, то же, что и 4070). Для первых заданий это не имеет значения, для последующих — может быть важно.</p>
+<p>Для доступа к серверам нужно заполнить форму, ссылка на которую есть в разделе «Новые GPU-сервера → Доступ на сервер». После одобрения заявки нужно настроить <code class="docutils literal notranslate"><span class="pre">~/.ssh/config</span></code> (Linux, Mac, WSL) или сессию в Putty (Windows) по инструкции из того же раздела.</p>
+<p>Опционально: пробрасываем <a class="reference external" href="https://help.ubuntu.com/community/SSH/OpenSSH/Keys">ключи</a> на сервер для входа без пароля (Linux, Mac, WSL):</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ssh-copy-id</span> <span class="pre">imladris</span></code> (ключи должны быть предварительно сгенерированы командой <code class="docutils literal notranslate"><span class="pre">ssh-keygen</span> <span class="pre">-t</span> <span class="pre">rsa</span></code>)</p></li>
+<li><p>Проверяем, что вход работает теперь без пароля: <code class="docutils literal notranslate"><span class="pre">ssh</span> <span class="pre">imladris</span></code></p></li>
+</ul>
+<p>На сервере проверяем, что нам доступны видеокарты через команду <code class="docutils literal notranslate"><span class="pre">nvidia-smi</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ nvidia-smi
+Mon Aug 26 19:42:50 2024
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.28.03              Driver Version: 560.28.03      CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Quadro RTX 4000                On  |   00000000:02:00.0 Off |                  N/A |
+| 30%   26C    P8              9W /  125W |       1MiB /   8192MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA RTX A4000               On  |   00000000:05:00.0 Off |                  Off |
+| 41%   37C    P8             15W /  140W |       2MiB /  16376MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA RTX A4000               On  |   00000000:06:00.0 Off |                  Off |
+| 41%   33C    P8             13W /  140W |       2MiB /  16376MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  Quadro RTX 4000                On  |   00000000:81:00.0 Off |                  N/A |
+| 30%   29C    P8              7W /  125W |       1MiB /   8192MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   4  Quadro RTX 4000                On  |   00000000:82:00.0 Off |                  N/A |
+| 30%   26C    P8             10W /  125W |       1MiB /   8192MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   5  Quadro RTX 4000                On  |   00000000:85:00.0 Off |                  N/A |
+| 30%   30C    P8              8W /  125W |       1MiB /   8192MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   6  Quadro RTX 4000                On  |   00000000:86:00.0 Off |                  N/A |
+| 30%   30C    P8              9W /  125W |       1MiB /   8192MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+</pre></div>
+</div>
+<p>Карты <code class="docutils literal notranslate"><span class="pre">NVIDIA</span> <span class="pre">RTX</span> <span class="pre">A4000</span></code> (GPU#1, GPU#2) — нового поколения, карты <code class="docutils literal notranslate"><span class="pre">Quadro</span> <span class="pre">RTX</span> <span class="pre">4000</span></code> (GPU#0, GPU#3-6) — более старые.</p>
+<p>Другая полезная информация:</p>
+<ul class="simple">
+<li><p>Версия CUDA (12.6) — для чтения <a class="reference external" href="https://developer.nvidia.com/cuda-toolkit-archive">актуальной документации</a>.</p></li>
+<li><p>Какие карты и чем заняты (см. «No running processes found», сейчас всё свободно). См. также утилиту <code class="docutils literal notranslate"><span class="pre">nvtop</span></code>.</p></li>
+<li><p>Для каждой карты указана степень её загрузки (<code class="docutils literal notranslate"><span class="pre">GPU-Util</span></code>) и объём занятой памяти (<code class="docutils literal notranslate"><span class="pre">Memory-Usage</span></code>).</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>Редактирование файлов на удалённой машине<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>Disclaimer: редакторы <code class="docutils literal notranslate"><span class="pre">vim</span></code>, <code class="docutils literal notranslate"><span class="pre">emacs</span></code> и их производные тут не рассматриваются. Если вы умеете ими пользоваться, то дальнейшие инструкции можете смело пропустить.</p>
+<p>Наш курс предполагает программирование на C++, поэтому редактирование файлов через Jupyter Notebook здесь также не рассматривается. Но и не запрещается, если вам так удобно.</p>
+<section id="nano">
+<h3>Редактор <code class="docutils literal notranslate"><span class="pre">nano</span></code><a class="headerlink" href="#nano" title="Link to this heading"></a></h3>
+<p>Простой консольный аналог Блокнота с подсветкой синтаксиса из коробки. Подходит для небольших правок.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>nano<span class="w"> </span>test.py
+</pre></div>
+</div>
+<p>Нижняя строка содержит подсказки основных команд (могут быть кликабельны):</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">^G</span></code> (<code class="docutils literal notranslate"><span class="pre">Ctrl/Cmd-G</span></code>) — справка.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">^O</span></code> (<code class="docutils literal notranslate"><span class="pre">Ctrl/Cmd-O</span></code>) — сохранить сделанные правки.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">^X</span></code> (<code class="docutils literal notranslate"><span class="pre">Ctrl/Cmd-X</span></code>) — выход (если файл был изменён, предложит сохранить).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">M-U</span></code>/<code class="docutils literal notranslate"><span class="pre">M-E</span></code> (<code class="docutils literal notranslate"><span class="pre">Alt/Option-U</span></code>/<code class="docutils literal notranslate"><span class="pre">Alt/Option-E</span></code>) — undo/redo.</p></li>
+<li><p>Навигация — стрелками.</p></li>
+</ul>
+<p>Попробуйте ввести <code class="docutils literal notranslate"><span class="pre">print(&quot;Hello,</span> <span class="pre">world!&quot;)</span></code>, нажать <code class="docutils literal notranslate"><span class="pre">Ctrl/Cmd-X</span></code>, подтвердить сохранение (<code class="docutils literal notranslate"><span class="pre">y</span></code>) и запустить полученный файл: <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">test.py</span></code>.</p>
+</section>
+<section id="scp-pscp-putty">
+<h3>Копирование файлов по <code class="docutils literal notranslate"><span class="pre">scp</span></code>/<code class="docutils literal notranslate"><span class="pre">pscp</span></code> (Putty)<a class="headerlink" href="#scp-pscp-putty" title="Link to this heading"></a></h3>
+<p>Редактировать файлы можно на своём компьютере в своём любимом редакторе, копируя их для исполнения на удалённую машину. Важно соблюдать следующие требования к формату файлов:</p>
+<ul class="simple">
+<li><p>Кодировка <code class="docutils literal notranslate"><span class="pre">utf-8</span></code> (без <code class="docutils literal notranslate"><span class="pre">BOM</span></code>, не <code class="docutils literal notranslate"><span class="pre">utf-8-sig</span></code>).</p></li>
+<li><p>Перевод строк через <code class="docutils literal notranslate"><span class="pre">\n</span></code> (<code class="docutils literal notranslate"><span class="pre">LF</span></code>). Не подходят <code class="docutils literal notranslate"><span class="pre">\r\n</span></code> (<code class="docutils literal notranslate"><span class="pre">CRLF</span></code>)</p></li>
+</ul>
+<p>Далее копируем на удалённую машину, заходим, запускаем:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>scp<span class="w"> </span>~/test.py<span class="w"> </span>imladris:~
+ssh<span class="w"> </span>imladris
+python3<span class="w"> </span>test.py
+</pre></div>
+</div>
+<p>Для WSL (Windows) путь к локальному файлу на условном рабочем столе будет выглядеть примерно так:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>scp<span class="w"> </span>/mnt/c/Users/MyLogin/Desktop/test.py<span class="w"> </span>imladris:~
+ssh<span class="w"> </span>imladris
+python3<span class="w"> </span>test.py
+</pre></div>
+</div>
+<p>Putty:</p>
+<div class="highlight-cmd notranslate"><div class="highlight"><pre><span></span>cd c:\Users\MyLogin\Desktop
+pscp test.py imladris:~
+</pre></div>
+</div>
+<p>(заходим через Putty и так же запускаем: <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">test.py</span></code>)</p>
+<p>Более продвинутый вариант синхронизации (через <code class="docutils literal notranslate"><span class="pre">rsync</span></code> будет рассмотрен позже, когда проект разрастётся в более чем один файл).</p>
+</section>
+<section id="id4">
+<h3>Синхронизация через удалённый репозиторий<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>Можно использовать github (или другой доступный вам репозиторий/систему контроля версий) для переноса правок с машины на машину.</p>
+<p>Этот способ требует достаточно большого количества действий (<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-a</span> <span class="pre">*</span></code>/<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code>/<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">pop</span></code>) и предварительной настройки рабочих копий. В рамках данного курса это кажется избыточным, но для полноты картины и этот способ упомянут. Если вы знаете, что делать и вам так удобно — можно пользоваться.</p>
+</section>
+<section id="vs-code">
+<h3>VS Code<a class="headerlink" href="#vs-code" title="Link to this heading"></a></h3>
+<p>Благодаря плагину Remote SSH этот редактор позволяет редактировать файлы на удалённой машине практически как на локальной. Он есть под все актуальные операционные системы, но требует некоторой предварительной настройки (как редактора, так и себя).</p>
+<p>Здесь мы рассмотрим минимальный «джентльменский набор», который позволит редактировать файлы удалённо.</p>
+<ul class="simple">
+<li><p>https://code.visualstudio.com/ — сайт проекта.</p></li>
+<li><p>https://code.visualstudio.com/docs — возможно, слишком подробное getting started.</p></li>
+</ul>
+<p>Вам нужно:</p>
+<ul class="simple">
+<li><p>Скачать и <a class="reference external" href="https://code.visualstudio.com/docs/setup/setup-overview">установить</a> vs code под свою платформу.</p></li>
+<li><p>Установить плагины <em>Remote-SSH</em> и <em>C/C++</em> от Microsoft: <code class="docutils literal notranslate"><span class="pre">Ctrl+Shift+X</span></code> → поиск по названиям плагинов → Install.</p></li>
+</ul>
+<p>После этого попробуем подключиться к компьютеру в ШАД:</p>
+<ul class="simple">
+<li><p>Нажимаем на зелёные стрелочки в левом нижнем углу (или <code class="docutils literal notranslate"><span class="pre">Ctrl-Shipft-P</span></code> → <code class="docutils literal notranslate"><span class="pre">&gt;Remote-SSH:</span> <span class="pre">Connect</span> <span class="pre">to</span> <span class="pre">Host</span></code>).</p></li>
+<li><p>В появившемся списке выбираем машину <code class="docutils literal notranslate"><span class="pre">imladris</span></code> (она должна подтянуться из <code class="docutils literal notranslate"><span class="pre">~/.ssh/config</span></code>).</p></li>
+<li><p>Некоторое время vs code копирует файлы на удалённый сервер, потом показывает welcome-окно.</p></li>
+<li><p>В правом нижнем углу окна должно быть имя удалённого сервера.</p></li>
+</ul>
+<p>`Ctrl-`` — открыть ssh-консоль к удалённому серверу прямо в vs code. Командой «+» в toolbar’е этой консоли можно создать дополнительные.</p>
+<p>Попробуем написать простейшую программу:</p>
+<ul class="simple">
+<li><p>Создадим папку для экспериментов: <code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">01-intro</span></code> и откроем её в vs code («File → Open Folder» или с Welcome-screen).</p></li>
+<li><p>→ <code class="docutils literal notranslate"><span class="pre">Yes,</span> <span class="pre">I</span> <span class="pre">trust</span> <span class="pre">authors</span></code></p></li>
+<li><p>В vs code создадим новый файл (<code class="docutils literal notranslate"><span class="pre">Ctrl-N</span></code> или через Explorer <code class="docutils literal notranslate"><span class="pre">Ctrl-Shift-E</span></code>).</p></li>
+<li><p>(Самостоятельно) напишем стандартный «hello, world» на C++ и сохраним его как <code class="docutils literal notranslate"><span class="pre">main.cpp</span></code>.</p></li>
+<li><p>Проверяем через консоль: <code class="docutils literal notranslate"><span class="pre">gcc</span> <span class="pre">-o</span> <span class="pre">main</span> <span class="pre">main.cpp</span> <span class="pre">&amp;&amp;</span> <span class="pre">./main</span></code></p></li>
+</ul>
+<p>Повышаем степень удобства работы, ставим плагин для C++:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl-Shift-X</span></code></p></li>
+<li><p>В списке локально установленных плагинов находим <code class="docutils literal notranslate"><span class="pre">C/C++</span></code></p></li>
+<li><p>→ <code class="docutils literal notranslate"><span class="pre">Install</span> <span class="pre">in</span> <span class="pre">SSH</span></code></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
